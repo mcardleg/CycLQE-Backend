@@ -1,7 +1,6 @@
 package ie.tcd.mcardleg.CycLQE;
 
 import java.math.BigDecimal;
-import java.math.BigInteger;
 
 public class Constants {
     public static final String RAW_ACCELEROMETER_TABLE = "CycLQE_Raw_Accelerometer_Data_Table";
@@ -16,7 +15,8 @@ public class Constants {
     public static final String ACCELERATION = "acceleration";
     public static final String DATE_TIME = "dateTime";
 
-
+    public static final String AWS_ACCESS_KEY = "";
+    public static final String AWS_SECRET_ACCESS_KEY = "";
 
     public static final BigDecimal LAT_INTERVAL = new BigDecimal("0.0005");
     public static final BigDecimal LON_INTERVAL = new BigDecimal("0.001");
