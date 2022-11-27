@@ -4,6 +4,7 @@ import java.math.BigDecimal;
 
 public class GPSDP {
     private String uuid;
+    private Integer userID;
     private String dateTime;
     private BigDecimal latitude;
     private BigDecimal longitude;
@@ -13,6 +14,13 @@ public class GPSDP {
     }
     public void setUuid(String uuid) {
         this.uuid = uuid;
+    }
+
+    public Integer getUserID() {
+        return userID;
+    }
+    public void setUserID(Integer userID) {
+        this.userID = userID;
     }
 
     public String getDateTime() {

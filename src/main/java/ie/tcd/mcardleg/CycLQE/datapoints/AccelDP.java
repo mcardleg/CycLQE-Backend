@@ -3,6 +3,7 @@ package ie.tcd.mcardleg.CycLQE.datapoints;
 
 public class AccelDP {
     private String uuid;
+    private Integer userID;
     private String dateTime;
     private Float acceleration;
 
@@ -11,6 +12,13 @@ public class AccelDP {
     }
     public void setUuid(String uuid) {
         this.uuid = uuid;
+    }
+
+    public Integer getUserID() {
+        return userID;
+    }
+    public void setUserID(Integer userID) {
+        this.userID = userID;
     }
 
     public String getDateTime() {
